@@ -1,0 +1,12 @@
+// C++ code
+//
+int apin=127;
+void setup()
+{
+  pinMode(10, OUTPUT);
+}
+
+void loop()
+{
+  analogWrite(10,apin);
+}
